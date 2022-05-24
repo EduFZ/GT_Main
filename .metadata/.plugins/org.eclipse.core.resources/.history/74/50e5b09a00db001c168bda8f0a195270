@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="ISO-8859-1">
+<title>Gulliver Traveller</title>
+</head>
+<body>
+	 <header>
+        <div class="cabecalho">
+
+            <h1>Gulliver Traveller</h1>
+
+            <ul class="nav">
+                <li class="linav">Hospedagens</li>
+            </ul>
+        </div>
+
+    </header>
+</body>
+</html>
