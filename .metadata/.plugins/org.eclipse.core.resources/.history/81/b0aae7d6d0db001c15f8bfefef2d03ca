@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Righteous&display=swap');
 
-
 @font-face {
     font-family: 'OpenDyslexic';
     src: url(../acessibilidade/fonts/OpenDyslexic-Regular.otf) format("opentype");
@@ -54,7 +53,7 @@ h1 {
 
 .nav {
     list-style: none;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     margin-right: 5vw;
     display: flex;
 }
@@ -66,10 +65,6 @@ h1 {
 
 .navtxt {
     color: #fff;
-}
-
-.select {
-    text-decoration: underline;
 }
 
 
@@ -100,18 +95,12 @@ h1 {
     background-color: #015481;
 }
 
-
-
 main {
     width: 80%;
-    height: 470vh;
+    height: 530vh;
     background-color: #fff;
     margin: 0 auto;
     box-shadow: -10px 5px 13px -10px #000000, 5px 5px 13px -7px #000000, 5px 5px 5px 5px rgba(0,0,0,0);
-}
-
-.main1 {
-    height: 500vh;
 }
 
 .ux {
@@ -120,11 +109,6 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.btn {
-    margin-left: -10vw;
-    background-color: #1279B2;
 }
 
 h2 {
@@ -150,7 +134,7 @@ h3 {
     font-size: 0.9vw;
 }
 
-section {
+section, .script_card{
     width: 80%;
     height: 50vh;
     border: 3px solid #0DA300;
@@ -161,13 +145,11 @@ section {
     margin: 5vh auto 5vh;
 }
 
-
 /* API Mapquest */
 
 .script_card {
     border: 3px solid #126390;
 }
-
 
 
 
@@ -249,18 +231,6 @@ a {
 a:hover {
     text-decoration-line: underline;    
 }
-
-.vm {
-    width: 80%;
-    display: flex;
-    justify-content: end;
-    margin: auto;
-}
-
-.VerMais {
-    
-}
-
 
 
 /* footer */

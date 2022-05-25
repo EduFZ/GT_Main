@@ -24,11 +24,11 @@
             <h1>Gulliver Traveller</h1>
 
             <ul class="nav">
-                <li class="linav select"><a class="navtxt" href="#">Home</a></li>
-                <li class="linav"><a class="navtxt" href="./hospedagens.jsp">Hospedagens</a></li>
-                <li class="linav"><a class="navtxt" href="./alugac.jsp">Alugar</a></li>
-                <li class="linav"><a class="navtxt" href="./cultura.jsp">Cultura</a></li>
-                <li class="linav"><a class="navtxt" href="./entretenimento.jsp">Entretenimento</a></li>
+                <li class="linav"><a class="navtxt" href="#">Home</a></li>
+                <li class="linav"><a class="navtxt" href="#">Hospedagens</a></li>
+                <li class="linav"><a class="navtxt" href="#">Alugar</a></li>
+                <li class="linav"><a class="navtxt" href="#">Cultura</a></li>
+                <li class="linav"><a class="navtxt" href="#">Entretenimento</a></li>
 
             </ul>
         </div>
