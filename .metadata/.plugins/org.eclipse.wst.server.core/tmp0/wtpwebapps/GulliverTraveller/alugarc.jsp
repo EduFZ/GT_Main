@@ -5,16 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gulliver Traveller</title>
-    <link rel="stylesheet" href="./Hospedagens_html_css/css/style.css">
+    <title>Gulliver Traveller - Alugue um Automóvel</title>
+    <link rel="stylesheet" href="./style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- <script src="./script/script.js"></script> -->
-
-
 
 
     <!-- Map -->
@@ -37,53 +33,47 @@
         }
         </script>
 
+       
 
-     
+</head>
 
+<body>
 
+    <header>
+        <div class="cabecalho">
 
-</head >
+            <h1>Gulliver Traveller</h1>
 
-            <body>
+            <ul class="nav">
+                <li class="linav"><a class="navtxt" href="index.jsp">Home</a></li>
+                <li class="linav"><a class="navtxt" href="./hospedagens.jsp">Hospedagens</a></li>
+                <li class="linav select"><a class="navtxt" href="#">Alugar</a></li>
+                <li class="linav"><a class="navtxt" href="./cultura.jsp">Cultura</a></li>
+                <li class="linav"><a class="navtxt" href="./entretenimento.jsp">Entretenimento</a></li>
 
+            </ul>
+        </div>
 
+    </header>
 
+    <main class="main1">
 
-
-
-                <header>
-                    <div class="cabecalho">
-
-                        <h1>Gulliver Traveller</h1>
-
-                        <ul class="nav">
-                			<li class="linav"><a class="navtxt" href="./index.jsp">Home</a></li>
-                			<li class="linav select"><a class="navtxt" href="#">Hospedagens</a></li>
-                			<li class="linav"><a class="navtxt" href="./alugac.jsp">Alugar</a></li>
-                			<li class="linav"><a class="navtxt" href="./cultura.jsp">Cultura</a></li>
-                			<li class="linav"><a class="navtxt" href="./entretenimento.jsp">Entretenimento</a></li>
+        <div class="ux">
             
-                        </ul>
-                    </div>
 
-                </header>
-
-                <main>
-
-                    <div class="ux">
-                        <h2 class="uxtitle">Pesquise Hospedagens</h2>
-
-                        <ul>
-                            <li id="negocios">Negócios</li>
-                            <li id="turismo">Turismo</li>
-                        </ul>
+            <ul>
+                <li id="negocios">Negócios</li>
+                <li id="turismo">Turismo</li>
+            </ul>
 
 
 
-                        <!-- -----Acessibilidade----- -->
-                        <a class="acessibilidade" id="link__acessivel" href="./Hospedagens_html_css/acessibilidade/acessivel.html"><img src="./Hospedagens_html_css/images/acessibilidade.png" /></a>
+            <!-- -----Acessibilidade----- -->
+            <a class="acessibilidade" id="link__acessivel" href="./acessibilidade/acessivel.html"><img
+                    src="./images/acessibilidade.png" /></a>
 
-                        <!--Barra de Pesquisa-->
+
+            <!--Barra de Pesquisa-->
 
             <div class="FormPesquisa">
 
@@ -92,11 +82,12 @@
 
             </div>
 
-                    </div>
+
+        </div>
 
                     <!-- Lista de Hotéis -->
 
-
+                    <h2 class="uxtitle ux">Pesquise Automóveis para Alugar</h2>
                     <!-- Ibis Style -->
 
                     <section>

@@ -106,7 +106,7 @@
         </section>
 
        <div class="vm">
-           <a class="VerMais" href="#">Ver Mais...</a>
+           <a class="VerMais" href="./hospedagens.jsp">Ver Mais...</a>
        </div>
 
        

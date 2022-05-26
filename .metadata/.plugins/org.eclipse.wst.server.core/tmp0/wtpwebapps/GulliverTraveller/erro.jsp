@@ -15,16 +15,12 @@
         <div class="content first-content">
             <div class="first-column">
                 <p class="logTitulo1">Gulliver Traveller</p>
-                <p class="logDescr">Sua viagem mais inteligente!</p>
+                <p class="logDescr">Oops!!!</p>
             </div>
 
             <div class="second-column">
-                <h2 class="logTitulo2">Login</h2>
-                <form action="" method="post" class="form">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                    <input type="password" name="senha" id="senha" placeholder="Senha" required>
-                    <button class="btnLogin" type="submit">Sign up</button>
-                </form>
+                <h2 class="logTitulo2">Usuário</h2>
+                <p class="logDescr msgErro">não encontrado!</p>
             </div>
         </div>
 
