@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gulliver Traveller</title>
-    <link rel="stylesheet" href="./Hospedagens_html_css/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -57,11 +57,11 @@
                         <h1>Gulliver Traveller</h1>
 
                         <ul class="nav">
-                			<li class="linav"><a class="navtxt" href="./index.jsp">Home</a></li>
-                			<li class="linav select"><a class="navtxt" href="#">Hospedagens</a></li>
-                			<li class="linav"><a class="navtxt" href="./alugac.jsp">Alugar</a></li>
-                			<li class="linav"><a class="navtxt" href="./cultura.jsp">Cultura</a></li>
-                			<li class="linav"><a class="navtxt" href="./entretenimento.jsp">Entretenimento</a></li>
+                			<li class="linav"><a class="navtxt" href="./index.html">Home</a></li>
+                			<li class="linav select"><a class="navtxt" href="hospedagens.html">Hospedagens</a></li>
+                			<li class="linav"><a class="navtxt" href="./alugarc.html">Alugar</a></li>
+                			<li class="linav"><a class="navtxt" href="./cultura.html">Cultura</a></li>
+                			<li class="linav"><a class="navtxt" href="./entretenimento.html">Entretenimento</a></li>
             
                         </ul>
                     </div>
@@ -71,7 +71,7 @@
                 <main>
 
                     <div class="ux">
-                        <h2 class="uxtitle">Pesquise Hospedagens</h2>
+                      
 
                         <ul>
                             <li id="negocios">Negócios</li>
@@ -81,7 +81,7 @@
 
 
                         <!-- -----Acessibilidade----- -->
-                        <a class="acessibilidade" id="link__acessivel" href="./Hospedagens_html_css/acessibilidade/acessivel.html"><img src="./Hospedagens_html_css/images/acessibilidade.png" /></a>
+                        <a class="acessibilidade" id="link__acessivel" href="./acessibilidade/hospedagens.html"><img src="./images/acessibilidade.png" /></a>
 
                         <!--Barra de Pesquisa-->
 
@@ -93,7 +93,7 @@
             </div>
 
                     </div>
-
+                    <h2 class="uxtitle ux">Pesquise Hospedagens</h2>
                     <!-- Lista de Hotéis -->
 
 
@@ -101,7 +101,7 @@
 
                     <section>
 
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/ibissp.png" alt="Hotel Ibis Style"><span>hotel ibis</span></div>
+                        <div class="img__section"><img src="./images/ibissp.png" alt="Hotel Ibis Style"><span>hotel ibis</span></div>
 
                         <div class="sobre">
                             <h2 class="titulo__hotel">Ibis Styles</h2>
@@ -136,7 +136,7 @@
 
                     <section>
 
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/comfortsp.png" alt="Hotel Comfort Ibirapuera"></div>
+                        <div class="img__section"><img src="./images/comfortsp.png" alt="Hotel Comfort Ibirapuera"></div>
 
                         <div class="sobre">
                             <h2 class="titulo__hotel">Comfort Ibirapuera</h2>
@@ -172,7 +172,7 @@
 
                     <section>
 
-                        <div class="img__section"><img class="blue" src="./Hospedagens_html_css/images/btpremiumsp.png" alt="Hotel Blue Tree Premium">
+                        <div class="img__section"><img class="blue" src="./images/btpremiumsp.png" alt="Hotel Blue Tree Premium">
                         </div>
 
                         <div class="sobre">
@@ -204,204 +204,6 @@
                             </div>
                         </div>
                     </section>
-
-                    <!-- Mercure Pamplona -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img class="mercure" src="./Hospedagens_html_css/images/mercuresp.png"
-                            alt="Hotel Mercure São Paulo Pamplona"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Mercure São Paulo Pamplona</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Rua Pamplona 1315 Jardim Paulista, São Paulo, São Paulo 01405-002 Brasil</p>
-                            </div>
-
-                            <p class="descricao">O hotel Mercure São Paulo Pamplona está localizado no Jardins, bairro repleto de
-                                restaurantes conceituados e boutiques de luxo. Nossos quartos são amplos e confortáveis e possuem
-                                uma decoração moderna, com climatização e internet Wi-Fi. Do luxo ao tradicional, você vai se
-                                encantar com tudo o que a região do Jardins oferece.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Aeroporto de Congonhas: 8 km</li>
-                                <li>Avenida Paulista: 800 m</li>
-                                <li>Metrô Trianon MASP: 800 m</li>
-                                <li>Shopping Pamplona: 350 m</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://all.accor.com/brasil/index.pt-br.shtml"
-                                    target="_blank">www.all.accor.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Sheraton WTC -->
-
-                    <section>
-
-                        <div class="img__section"><img class="sheraton" src="./Hospedagens_html_css/images/sheratonsp.png"
-                            alt="Hotel Sheraton São Paulo WTC"></div>
-
-                        <div class="sobre">
-                            <h2 class="titulo__hotel">Sheraton São Paulo WTC Hotel</h2>
-
-                            <div class="awesome">
-                                <i class="neg fas fa-map-marker-alt"></i>
-                                <p class="loc">Nações Unidas Ave 12559 Brooklin Novo, São Paulo, São Paulo 04578-000 Brasil</p>
-                            </div>
-
-                            <p class="descricao">Localizado no coração da região da Berrini, onde você pode encontrar sedes de
-                                grandes corporações e uma ampla variedade de entretenimento, restaurantes e compras, o hotel oferece
-                                296 acomodações de classe mundial. Destes, 67 são decorados por arquitetos renomados que compõem o
-                                conceito de “Design Hotel”, onde os hóspedes podem ter uma experiência diferente a cada estadia.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Hospital Premier: 1,3 km</li>
-                                <li>Estação Berrini: 1,1 km</li>
-                                <li>Teatro Vivo: 1,3 km</li>
-                                <li>Morumbi Shopping: 2 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="neg fas fa-globe"></i>
-                                <a class="site" href="https://www.marriott.com/default.mi" target="_blank">www.marriott.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Bourbon Ibirapuera -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/bourbonsp.png" alt="Hotel Bourbon Ibirapuera"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Bourbon Ibirapuera</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Avenida Ibirapuera 2927 Moema, São Paulo, São Paulo 04029-200 Brasil</p>
-                            </div>
-
-                            <p class="descricao">Localizado em Moema, um dos bairros mais charmosos, tranquilos, arborizados e com
-                                melhor qualidade de vida na cidade de São Paulo. O empreendimento oferece facilidades para quem
-                                busca agilidade e atendimento de qualidade, e é a opção ideal para a realização de eventos,
-                                hospedagem de grupos e para pessoas que estão na cidade de São Paulo a negócios, ou lazer.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Shopping Ibirapuera: Ao lado</li>
-                                <li>Parque Ibirapuera: 2 km</li>
-                                <li>Aeroporto de Congonhas: 3 km</li>
-                                <li>Estação Eucaliptos: 300 m</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://www.bourbon.com.br/" target="_blank">www.bourbon.com.br</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Gonden Tulip Paulista -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img class="golden" src="./Hospedagens_html_css/images/goldentulipsp.png"
-                            alt="Hotel Golden Tulip Paulista Plaza"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Golden Tulip Paulista Plaza</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Alameda Santos 85 Paraiso, São Paulo, São Paulo 01419-000 Brasil</p>
-                            </div>
-
-                            <p class="descricao">Localizado no elegante bairro dos Jardins, a uma quadra da Avenida Paulista, o
-                                Golden Tulip Paulista Plaza dispõe de 378 apartamentos, distribuídos em 24 andares de completo
-                                charme e conforto com estilo moderno e cosmopolita.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>MASP: 1,6 km/li>
-                                    <li>Pinacoteca: 4,9 km</li>
-                                    <li>Museu do Futebol: 4,3 km</li>
-                                    <li>Mercado Municipal: 4,3 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://www.radissonhotelsamericas.com/pt-br/"
-                                    target="_blank">www.radissonhotelsamericas.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Renaissance -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/renaissancesp.png" alt="Hotel Renaissance São Paulo"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Renaissance São Paulo Hotel</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Alameda Santos, 2233 Jardins, São Paulo, São Paulo 01419-101 Brasil
-                                </p>
-                            </div>
-
-                            <p class="descricao">Desfrute de uma experiência única! Aproveite ao máximo sua viagem no Renaissance
-                                São Paulo Hotel, localizado no charmoso bairro dos Jardins. Apartamentos e suítes amplos, ideais
-                                para relaxar sem deixar de lado o conforto e sofisticação. Aqui, corpo, mente e alma são trabalhados
-                                em conjunto, para oferecer equilíbrio e bem-estar.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Estação Consolação: 240 m</li>
-                                <li>Pinacoteca: 4,4 km</li>
-                                <li>MASP: 900 m</li>
-                                <li>Mercado Municipal: 4,3 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://www.marriott.com/default.mi" target="_blank">www.marriott.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <!-- -----API mapquest----- -->
-
-
-
-                    <div class="card h-100 script_card">
-
-                        <!-- Map div verificar responsividade -->
-                        <div id="map" style="width: 100%; height: 100%;"></div>
-                    </div>
-
-
-
-
-
-
-
 
 
                 </main>

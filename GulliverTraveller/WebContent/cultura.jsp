@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gulliver Traveller - Alugue um Automóvel</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -27,18 +27,18 @@
             <h1>Gulliver Traveller</h1>
 
             <ul class="nav">
-                <li class="linav"><a class="navtxt" href="./index.jsp">Home</a></li>
-                <li class="linav"><a class="navtxt" href="./hospedagens.jsp">Hospedagens</a></li>
-                <li class="linav"><a class="navtxt" href="./alugac.jsp">Alugar</a></li>
-                <li class="linav select"><a class="navtxt" href="#">Cultura</a></li>
-                <li class="linav"><a class="navtxt" href="./entretenimento.jsp">Entretenimento</a></li>
+                <li class="linav"><a class="navtxt" href="index.html">Home</a></li>
+                <li class="linav"><a class="navtxt" href="hospedagens.html">Hospedagens</a></li>
+                <li class="linav"><a class="navtxt" href="alugarc.html">Alugar</a></li>
+                <li class="linav select"><a class="navtxt" href="cultura.html">Cultura</a></li>
+                <li class="linav"><a class="navtxt" href="entretenimento.html">Entretenimento</a></li>
 
             </ul>
         </div>
 
     </header>
 
-    <main class="main1">
+    <main>
 
         <div class="ux">
             
@@ -51,7 +51,7 @@
 
 
             <!-- -----Acessibilidade----- -->
-            <a class="acessibilidade" id="link__acessivel" href="./acessibilidade/acessivel.html"><img
+            <a class="acessibilidade" id="link__acessivel" href="./acessibilidade/cultura.html"><img
                     src="./images/acessibilidade.png" /></a>
 
 
@@ -67,305 +67,118 @@
 
         </div>
 
-                    <!-- Lista de Hotéis -->
-
-                    <h2 class="uxtitle ux">História, Cultura e Dicas</h2>
-                    <!-- Ibis Style -->
+                    <!-- Masp -->
+                    <h2 class="uxtitle ux">Conheça a Cultura!</h2>
 
                     <section>
+             
+                     <div class="img__section"><img src="./images/Cultura/Masp.jpeg" alt="Masp"><span>Masp</span>
+                     </div>
+             
+                     <div class="sobre">
+                         <h2 class="titulo__hotel">Museu do MASP</h2>
+             
+                         <div class="awesome">
+                             <i class="neg fas fa-map-marker-alt"></i>
+                             <p class="loc">Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200</p>
+                         </div>
+             
+                         <p class="descricao">O Museu de Arte de São Paulo é um museu privado sem fins lucrativos, fundado em 1947 pelo 
+                             empresário e mecenas Assis Chateaubriand (1892-1968), tornando-se o primeiro museu moderno no país.
+                              Chateaubriand convidou o crítico e marchand italiano Pietro Maria Bardi (1900-1999) para dirigir o MASP, 
+                              e Lina Bo Bardi (1914-1992) para desenvolver o projeto arquitetônico e expográfico. 
+                              Mais importante acervo de arte europeia do Hemisfério Sul, hoje a coleção do MASP reúne mais de 11 mil obras.
+                              </p>
+                         <h3>Exposições em Cartaz:</h3>
+                         <ul class="ref">
+                             <li>Leonardo Da Vinci</li>
+                             <li>Aleijadinho</li>
+                             <li>Pinot</li>
+                             <li>Renoir</li>
+                         </ul>
+             
+                         <div class="awsite">
+             
+                             <i class="neg fas fa-globe"></i>
+                             <a class="site" href="https://masp.org.br/"
+                                 target="_blank">https://masp.org.br/</a>
+                         </div>
+                     </div>
+                 </section>
 
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/ibissp.png" alt="Hotel Ibis Style"><span>hotel ibis</span></div>
-
-                        <div class="sobre">
-                            <h2 class="titulo__hotel">Ibis Styles</h2>
-
-                            <div class="awesome">
-                                <i class="neg fas fa-map-marker-alt"></i>
-                                <p class="loc">Av. Cruzeiro do Sul, no 1709, São Paulo, São Paulo 02031-000 Brasil</p>
-                            </div>
-
-                            <p class="descricao">Embarque, literalmente, em uma experiência diferenciada, confortável e com ótima
-                                relação custo-benefício no ibis Styles São Paulo Anhembi. Com design moderno e decoração inspirada
-                                no tema aviação, o hotel oferece quartos com camas Sweet Bed by Ibis, Wi-Fi grátis e um delicioso
-                                café da manhã servido diariamente.</p>
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Expo Center Norte: 3,6 km</li>
-                                <li>Pinacoteca: 3 km</li>
-                                <li>Metrô: Ao lado</li>
-                                <li>Museu da Língua Portuguesa: 3,3 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="neg fas fa-globe"></i>
-                                <a class="site" href="https://ibis.accor.com/brasil/index.pt-br.shtml"
-                                    target="_blank">www.ibis.accor.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Comfort Ibirapuera -->
-
-                    <section>
-
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/comfortsp.png" alt="Hotel Comfort Ibirapuera"></div>
-
-                        <div class="sobre">
-                            <h2 class="titulo__hotel">Comfort Ibirapuera</h2>
-
-                            <div class="awesome">
-                                <i class="neg fas fa-map-marker-alt"></i>
-                                <p class="loc">Av. Sabia 825, 04515-000, São Paulo, Brasil</p>
-                            </div>
-
-                            <p class="descricao">Descubra por que tantos viajantes escolhem o Comfort Hotel Ibirapuera ao visitar
-                                São Paulo. Com uma mistura perfeita de conforto, preço e conveniência, o local oferece um ambiente
-                                econômico, com várias comodidades projetadas especialmente para viajantes como você.
-                            </p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Catedral Ortodoxa: 3,7 km</li>
-                                <li>Hotel Unique: 2,3 km</li>
-                                <li>D.O.M. Gastronomia Brasileira: 5,1 km</li>
-                                <li>Centro da cidade: 7,6 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="neg fas fa-globe"></i>
-                                <a class="site" href="https://www.reserveatlantica.com.br/"
-                                    target="_blank">www.reserveatlantica.com.br</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Blue Tree Premium -->
+                                     <!-- Masp -->
 
                     <section>
+             
+                     <div class="img__section"><img src="./images/Cultura/teatro.webp" alt="teatro"><span>teatro</span>
+                     </div>
+             
+                     <div class="sobre">
+                         <h2 class="titulo__hotel">Theatro Municipal</h2>
+             
+                         <div class="awesome">
+                             <i class="neg fas fa-map-marker-alt"></i>
+                             <p class="loc">Praça Ramos de Azevedo, s/nº
+                            Sé - São Paulo, SP</p>
+                         </div>
+             
+                         <p class="descricao">O Theatro Municipal de São Paulo é um teatro brasileiro localizado na cidade 
+                             paulistana de São Paulo, projetado pelo arquiteto Ramos de Azevedo no estilo arquitetônico 
+                             eclético, inspirado na Ópera de Paris e inaugurado em 1911. É um dos cartões postais da cidade, 
+                             localizado na Praça Ramos de Azevedo, também considerado um dos mais importantes teatros do país.
+                              Construído para atender ao desejo da elite paulista da época, que queria que a cidade estivesse 
+                              à altura dos grandes centros culturais. </p>
+                         <h3>Exposições em Cartaz:</h3>
+                         <ul class="ref">
+                             <li>Opera Aida de Giusepe</li>
+                             <li>Exposição Contramemoria</li>
+                             <li>Coral Paulistano</li>
+                             <li>Visitas Educacionais</li>
+                         </ul>
+             
+                         <div class="awsite">
+             
+                             <i class="neg fas fa-globe"></i>
+                             <a class="site" href="https://theatromunicipal.org.br/pt-br/"
+                                 target="_blank">https://theatromunicipal.org.br/pt-br/</a>
+                         </div>
+                     </div>
+                 </section>
 
-                        <div class="img__section"><img class="blue" src="./Hospedagens_html_css/images/btpremiumsp.png" alt="Hotel Blue Tree Premium">
-                        </div>
-
-                        <div class="sobre">
-                            <h2 class="titulo__hotel">Blue Tree Premium </h2>
-
-                            <div class="awesome">
-                                <i class="neg fas fa-map-marker-alt"></i>
-                                <p class="loc">Av. Roque Petroni Júnior, 1000 Vila Gertrudes, São Paulo, São Paulo 04707-000 Brasil
-                                </p>
-                            </div>
-
-                            <p class="descricao">Com Wi-Fi gratuito e localizado em frente ao Shopping Morumbi, o Blue Tree Premium
-                                Morumbi oferece quartos com TV a cabo. O hotel possui piscina coberta com deck e piscina ao ar livre
-                                com uma área de 20 metros para tomar sol. Todos os quartos do Blue Tree Premium Morumbi têm
-                                ar-condicionado, frigobar e janelas com isolamento acústico.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Transamérica Expo Center: 5,2 km</li>
-                                <li>Consulado dos EUA: 1,4 km</li>
-                                <li>Aeroporto de Congonhas: 7 km</li>
-                                <li>GRU Aeroporto Internacional: 40 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="neg fas fa-globe"></i>
-                                <a class="site" href="https://www.bluetree.com.br/" target="_blank">www.bluetree.com.br</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Mercure Pamplona -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img class="mercure" src="./Hospedagens_html_css/images/mercuresp.png"
-                            alt="Hotel Mercure São Paulo Pamplona"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Mercure São Paulo Pamplona</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Rua Pamplona 1315 Jardim Paulista, São Paulo, São Paulo 01405-002 Brasil</p>
-                            </div>
-
-                            <p class="descricao">O hotel Mercure São Paulo Pamplona está localizado no Jardins, bairro repleto de
-                                restaurantes conceituados e boutiques de luxo. Nossos quartos são amplos e confortáveis e possuem
-                                uma decoração moderna, com climatização e internet Wi-Fi. Do luxo ao tradicional, você vai se
-                                encantar com tudo o que a região do Jardins oferece.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Aeroporto de Congonhas: 8 km</li>
-                                <li>Avenida Paulista: 800 m</li>
-                                <li>Metrô Trianon MASP: 800 m</li>
-                                <li>Shopping Pamplona: 350 m</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://all.accor.com/brasil/index.pt-br.shtml"
-                                    target="_blank">www.all.accor.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Sheraton WTC -->
-
+                    <!-- Farol Santander -->
                     <section>
-
-                        <div class="img__section"><img class="sheraton" src="./Hospedagens_html_css/images/sheratonsp.png"
-                            alt="Hotel Sheraton São Paulo WTC"></div>
-
-                        <div class="sobre">
-                            <h2 class="titulo__hotel">Sheraton São Paulo WTC Hotel</h2>
-
-                            <div class="awesome">
-                                <i class="neg fas fa-map-marker-alt"></i>
-                                <p class="loc">Nações Unidas Ave 12559 Brooklin Novo, São Paulo, São Paulo 04578-000 Brasil</p>
-                            </div>
-
-                            <p class="descricao">Localizado no coração da região da Berrini, onde você pode encontrar sedes de
-                                grandes corporações e uma ampla variedade de entretenimento, restaurantes e compras, o hotel oferece
-                                296 acomodações de classe mundial. Destes, 67 são decorados por arquitetos renomados que compõem o
-                                conceito de “Design Hotel”, onde os hóspedes podem ter uma experiência diferente a cada estadia.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Hospital Premier: 1,3 km</li>
-                                <li>Estação Berrini: 1,1 km</li>
-                                <li>Teatro Vivo: 1,3 km</li>
-                                <li>Morumbi Shopping: 2 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="neg fas fa-globe"></i>
-                                <a class="site" href="https://www.marriott.com/default.mi" target="_blank">www.marriott.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Bourbon Ibirapuera -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/bourbonsp.png" alt="Hotel Bourbon Ibirapuera"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Bourbon Ibirapuera</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Avenida Ibirapuera 2927 Moema, São Paulo, São Paulo 04029-200 Brasil</p>
-                            </div>
-
-                            <p class="descricao">Localizado em Moema, um dos bairros mais charmosos, tranquilos, arborizados e com
-                                melhor qualidade de vida na cidade de São Paulo. O empreendimento oferece facilidades para quem
-                                busca agilidade e atendimento de qualidade, e é a opção ideal para a realização de eventos,
-                                hospedagem de grupos e para pessoas que estão na cidade de São Paulo a negócios, ou lazer.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Shopping Ibirapuera: Ao lado</li>
-                                <li>Parque Ibirapuera: 2 km</li>
-                                <li>Aeroporto de Congonhas: 3 km</li>
-                                <li>Estação Eucaliptos: 300 m</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://www.bourbon.com.br/" target="_blank">www.bourbon.com.br</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Gonden Tulip Paulista -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img class="golden" src="./Hospedagens_html_css/images/goldentulipsp.png"
-                            alt="Hotel Golden Tulip Paulista Plaza"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Golden Tulip Paulista Plaza</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Alameda Santos 85 Paraiso, São Paulo, São Paulo 01419-000 Brasil</p>
-                            </div>
-
-                            <p class="descricao">Localizado no elegante bairro dos Jardins, a uma quadra da Avenida Paulista, o
-                                Golden Tulip Paulista Plaza dispõe de 378 apartamentos, distribuídos em 24 andares de completo
-                                charme e conforto com estilo moderno e cosmopolita.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>MASP: 1,6 km/li>
-                                    <li>Pinacoteca: 4,9 km</li>
-                                    <li>Museu do Futebol: 4,3 km</li>
-                                    <li>Mercado Municipal: 4,3 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://www.radissonhotelsamericas.com/pt-br/"
-                                    target="_blank">www.radissonhotelsamericas.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Renaissance -->
-
-                    <section class="stur">
-
-                        <div class="img__section"><img src="./Hospedagens_html_css/images/renaissancesp.png" alt="Hotel Renaissance São Paulo"></div>
-
-                        <div class="sobre sobre__tur">
-                            <h2 class="titulo__hotel">Renaissance São Paulo Hotel</h2>
-
-                            <div class="awesome">
-                                <i class="tur fas fa-map-marker-alt"></i>
-                                <p class="loc">Alameda Santos, 2233 Jardins, São Paulo, São Paulo 01419-101 Brasil
-                                </p>
-                            </div>
-
-                            <p class="descricao">Desfrute de uma experiência única! Aproveite ao máximo sua viagem no Renaissance
-                                São Paulo Hotel, localizado no charmoso bairro dos Jardins. Apartamentos e suítes amplos, ideais
-                                para relaxar sem deixar de lado o conforto e sofisticação. Aqui, corpo, mente e alma são trabalhados
-                                em conjunto, para oferecer equilíbrio e bem-estar.</p>
-
-                            <h3>Pontos de Referência:</h3>
-                            <ul class="ref">
-                                <li>Estação Consolação: 240 m</li>
-                                <li>Pinacoteca: 4,4 km</li>
-                                <li>MASP: 900 m</li>
-                                <li>Mercado Municipal: 4,3 km</li>
-                            </ul>
-
-                            <div class="awsite">
-
-                                <i class="tur fas fa-globe"></i>
-                                <a class="site tur" href="https://www.marriott.com/default.mi" target="_blank">www.marriott.com</a>
-                            </div>
-                        </div>
-                    </section>
-
-
-
-
-
-
-
-
-
+             
+                     <div class="img__section"><img src="./images/Cultura/santander.jpeg" alt="Santander"><span>Santander</span>
+                     </div>
+             
+                     <div class="sobre">
+                         <h2 class="titulo__hotel">Farol Santander</h2>
+             
+                         <div class="awesome">
+                             <i class="neg fas fa-map-marker-alt"></i>
+                             <p class="loc">R. João Brícola, 24 - Centro Histórico de São Paulo, São Paulo - SP, 01014-900</p>
+                         </div>
+             
+                         <p class="descricao">Construídos para relembrar o passado, marcar o presente e iluminar o futuro, os centros de cultura, 
+                             empreendedorismo e lazer Farol Santander estão localizados no coração de duas capitais brasileiras que possuem muita 
+                             história para contar, você não pode perder!
+                              </p>
+                         <h3>Exposições em Cartaz:</h3>
+                         <ul class="ref">
+                             <li>Observatorio</li>
+                             <li>Ecoart</li>
+                             <li>Manabu Mabe</li>
+                             <li>Cine Farol Santander</li>
+                         </ul>
+             
+                         <div class="awsite">
+             
+                             <i class="neg fas fa-globe"></i>
+                             <a class="site" href="https://www.farolsantander.com.br/#/"
+                                 target="_blank">https://www.farolsantander.com.br/</a>
+                         </div>
+                     </div>
+                 </section>                 
                 </main>
 
                 <footer>
